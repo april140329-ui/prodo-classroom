@@ -182,19 +182,8 @@ textarea{width:100%;min-height:100px;resize:vertical}
 <section class="view" id="lesson">
 <div class="between">
 <div>
-<h2>📚 오늘의 수업자료</h2>
-<p class="sub">교과서 문장 복사 없이, 2학년 눈높이로 새로 만든 활동이에요.</p>
-</div>
-<select id="subject" onchange="renderLessons()">
-<option>전체 과목</option>
-<option>국어</option>
-<option>수학</option>
-<option>통합</option>
-</select>
-</div>
-<div class="card">
-<div class="lesson-list" id="lessons">
-</div>
+<h2>📚 이번 주 수업자료</h2>
+<p class="sub">이번 주 학습계획, 직접 만든 활동, 공식 원자료를 먼저 확인해요.</p>
 </div>
 <div class="card" style="margin-top:14px">
 <div class="between">
@@ -231,6 +220,20 @@ textarea{width:100%;min-height:100px;resize:vertical}
 <b>‘시계야, 놀자!’ 수업자료</b>
 <p>교육청 사이트의 교사용 HWP 원문 페이지로 연결해요. 2015 교육과정 자료이므로 현행 교과와 차이가 있을 수 있고, 원문 이용 조건을 확인하세요.</p>
 </a>
+</div>
+</div>
+<div class="card" style="margin-top:14px">
+<div class="between">
+<h3>📖 기본 수업 예시</h3>
+<select id="subject" onchange="renderLessons()">
+<option>전체 과목</option>
+<option>국어</option>
+<option>수학</option>
+<option>통합</option>
+</select>
+</div>
+<p class="sub">이번 주 계획과 별도로 활용할 수 있는 기본 연습 자료예요.</p>
+<div class="lesson-list" id="lessons">
 </div>
 </div>
 </section>
